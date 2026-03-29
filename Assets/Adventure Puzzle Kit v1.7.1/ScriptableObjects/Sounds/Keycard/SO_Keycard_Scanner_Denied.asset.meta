@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c41f427b0f528ba4abc54345202a6736
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/Keycard/SO_Keycard_Scanner_Denied.asset
+  uploadId: 840520

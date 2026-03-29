@@ -1,0 +1,4 @@
+repository "QuestRoom2byAIChecker/QuestRoom2byAIChecker@18968381024276@cloud"
+  path "/"
+    br "/main"
+    co "/main"

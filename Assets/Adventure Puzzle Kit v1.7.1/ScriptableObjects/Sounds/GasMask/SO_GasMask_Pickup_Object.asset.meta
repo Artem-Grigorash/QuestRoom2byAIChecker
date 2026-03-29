@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3aebf2d1982bdde49a83f80ba14a9ff7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/GasMask/SO_GasMask_Pickup_Object.asset
+  uploadId: 840520

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d59145e226749914f89ff308d9498e19
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/ChessPuzzle/SO_ChessPuzzle_Electric_Zap.asset
+  uploadId: 840520

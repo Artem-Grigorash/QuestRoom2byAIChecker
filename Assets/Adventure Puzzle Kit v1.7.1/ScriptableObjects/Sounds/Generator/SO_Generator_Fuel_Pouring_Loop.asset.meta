@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dbda69951690e754c9f0ccccf6860ea2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/Generator/SO_Generator_Fuel_Pouring_Loop.asset
+  uploadId: 840520

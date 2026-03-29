@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 345d469d5bd904f4985107fee3a5db9b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Scenes/FirstPerson_AdventureKit_DemoSettings.lighting
+  uploadId: 840520

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 009d6e86c155a5941bcc99e97e588ba7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/GasMask/SO_GasMask_DeepBreath.asset
+  uploadId: 840520

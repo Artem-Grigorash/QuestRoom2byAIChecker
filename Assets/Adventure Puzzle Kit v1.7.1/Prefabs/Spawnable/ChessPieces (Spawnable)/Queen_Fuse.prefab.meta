@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e385d8abfc8e26e4cafd1d64b32b3f3b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Prefabs/Spawnable/ChessPieces (Spawnable)/Queen_Fuse.prefab
+  uploadId: 840520

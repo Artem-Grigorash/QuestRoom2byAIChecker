@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c4c662fce31bc3438a8159731422c94
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/Examine/SO_Examine_Metal_Clutter_Hit.asset
+  uploadId: 840520

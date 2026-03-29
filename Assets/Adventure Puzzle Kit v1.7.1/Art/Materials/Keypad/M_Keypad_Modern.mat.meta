@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f37bc9dd2a8e9245b6aae912589928d
+timeCreated: 1465124121
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Art/Materials/Keypad/M_Keypad_Modern.mat
+  uploadId: 840520

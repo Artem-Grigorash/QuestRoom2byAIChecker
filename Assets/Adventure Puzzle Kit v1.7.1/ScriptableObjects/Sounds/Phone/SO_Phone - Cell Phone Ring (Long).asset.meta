@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: faee96a4ba73a3341920c9e536392fde
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/Phone/SO_Phone
+    - Cell Phone Ring (Long).asset
+  uploadId: 840520

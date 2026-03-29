@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 32e9f2cd48fe59842b2abf3eba17647e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Animations/LeverSystem/Controller/Button2.controller
+  uploadId: 840520

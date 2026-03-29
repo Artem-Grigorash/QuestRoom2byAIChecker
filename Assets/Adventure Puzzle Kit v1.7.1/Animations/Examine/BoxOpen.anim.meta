@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 269cd3e4e2a432d42b5d12f1a986457c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Animations/Examine/BoxOpen.anim
+  uploadId: 840520

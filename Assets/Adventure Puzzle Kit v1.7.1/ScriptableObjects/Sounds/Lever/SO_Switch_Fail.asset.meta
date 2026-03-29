@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8b9ff79ccb3d0214fbddac358ca906e2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/Lever/SO_Switch_Fail.asset
+  uploadId: 840520

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a02a5df0f1996c94fae942c678d1b0de
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/Notes/SO_Note_LetterReadAudio1.asset
+  uploadId: 840520

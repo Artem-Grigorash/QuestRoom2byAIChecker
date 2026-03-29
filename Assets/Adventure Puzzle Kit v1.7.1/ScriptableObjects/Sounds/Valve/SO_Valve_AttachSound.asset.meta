@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df35d92441c9a57478dee96f32179082
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/Valve/SO_Valve_AttachSound.asset
+  uploadId: 840520

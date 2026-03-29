@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fc4aaa1eec1c5a745b6c6d2ec7a75e1c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Prefabs/Spawnable/ChessPieces (Spawnable)/King_Fuse.prefab
+  uploadId: 840520

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1b4007181dbf6e8499dbf15465f4d729
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/Safe/SO_Safe_Click.asset
+  uploadId: 840520

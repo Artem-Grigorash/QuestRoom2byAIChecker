@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eba573c9ebf52da4aab8d112cd988d34
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/Flashlight/SO_Flashlight_Click.asset
+  uploadId: 840520

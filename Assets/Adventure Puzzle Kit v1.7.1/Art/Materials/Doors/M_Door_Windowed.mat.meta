@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e01de2aa8d61a2a40baa1c85e1c716ce
+timeCreated: 1481387764
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Art/Materials/Doors/M_Door_Windowed.mat
+  uploadId: 840520

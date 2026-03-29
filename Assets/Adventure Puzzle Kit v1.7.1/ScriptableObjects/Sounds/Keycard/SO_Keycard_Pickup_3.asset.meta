@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 743f0c1b10fda864186df9f60f1f73f2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/ScriptableObjects/Sounds/Keycard/SO_Keycard_Pickup_3.asset
+  uploadId: 840520

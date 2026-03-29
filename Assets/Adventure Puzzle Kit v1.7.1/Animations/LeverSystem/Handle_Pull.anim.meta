@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d9b7a37b2432fbc40a06ac928a12e089
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Animations/LeverSystem/Handle_Pull.anim
+  uploadId: 840520

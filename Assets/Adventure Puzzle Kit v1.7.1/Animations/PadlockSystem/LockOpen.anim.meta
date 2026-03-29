@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c0f23de1f86307d4fa8c7b0efe19b8e7
+timeCreated: 1483874558
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Animations/PadlockSystem/LockOpen.anim
+  uploadId: 840520

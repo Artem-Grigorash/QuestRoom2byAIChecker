@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1f3c8b252d4cb014bb771ac99af390e7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Animations/DoorAnimation/Generic_Door_Anim_Controller.controller
+  uploadId: 840520

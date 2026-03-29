@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5cd052ce7ea5a2f438f599e02de6a390
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Art/Particles/Gas Particles/Shaders/PriorityParticleAdd.shader
+  uploadId: 840520

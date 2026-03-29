@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 67911fbe61171604c8483f48760d4486
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Animations/DoorAnimation/OpenDoor.anim
+  uploadId: 840520

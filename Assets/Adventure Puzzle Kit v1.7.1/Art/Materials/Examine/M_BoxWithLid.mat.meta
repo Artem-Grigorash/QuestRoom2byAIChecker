@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6f50dcd9c119f940a812dc75777c4d1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 175376
+  packageName: Adventure Puzzle Kit
+  packageVersion: 1.7.1
+  assetPath: Assets/Adventure Puzzle Kit v1.7.1/Art/Materials/Examine/M_BoxWithLid.mat
+  uploadId: 840520
