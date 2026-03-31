@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SO_Phone - General Call
   m_EditorClassIdentifier: 
   category: 2
-  clip: {fileID: 8300000, guid: 02b4b761083596e41b29011734b7f6b9, type: 3}
+  clip: {fileID: 8300000, guid: f0d7759817dc64c3b8c1cd99ae878483, type: 3}
   volume: 0.1
   volumeVariance: 0.1
   pitch: 1

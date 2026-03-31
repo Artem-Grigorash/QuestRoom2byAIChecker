@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SO_Phone - Voicemail - 25
   m_EditorClassIdentifier: 
   category: 2
-  clip: {fileID: 8300000, guid: 38d7b0ff2ce05eb4eb6125653577a736, type: 3}
+  clip: {fileID: 8300000, guid: f0d7759817dc64c3b8c1cd99ae878483, type: 3}
   volume: 0.1
   volumeVariance: 0.1
   pitch: 1
