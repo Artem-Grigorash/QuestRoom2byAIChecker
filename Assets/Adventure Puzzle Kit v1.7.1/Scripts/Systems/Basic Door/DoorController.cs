@@ -23,6 +23,10 @@ namespace AdventurePuzzleKit
 
         [Header("Door Audio")]
         [SerializeField] private Sound soundClip = null; // Optional sound to play when door opens
+        [SerializeField] private Sound lockedSoundClip = null; // Optional sound when door is locked
+
+        [Header("Door State")]
+        [SerializeField] private bool isLocked = false; // Is the door initially locked?
 
         [Header("Code-Driven Rotation")]
         [SerializeField] private Vector3 rotationAxis = Vector3.up; // Axis to rotate around (usually Y)
@@ -60,7 +64,18 @@ namespace AdventurePuzzleKit
 
         public void StopInteraction() { } // Called when player stops interacting (optional use)
 
-        public void HandleInputClick() { OpenDoor(); } // Called when player presses the interact key
+        public void HandleInputClick() 
+        { 
+            if (isLocked)
+            {
+                if (AKAudioManager.instance != null)
+                {
+                    AKAudioManager.instance.Play(lockedSoundClip);
+                }
+                return;
+            }
+            OpenDoor(); 
+        } // Called when player presses the interact key
 
         public void HandleInputHold() { } // Called if player is holding the interact button
 
@@ -85,6 +100,22 @@ namespace AdventurePuzzleKit
         {
             AKAudioManager.instance.Play(soundClip);
             doorAnim.Play(animationName, 0, 0.0f); // Play from the start
+            isOpen = true;
+        }
+
+        public void SetLocked(bool locked)
+        {
+            isLocked = locked;
+        }
+
+        // Unlocks and opens the door automatically
+        public void UnlockAndOpen()
+        {
+            isLocked = false;
+            if (!isOpen)
+            {
+                OpenDoor();
+            }
         }
 
         // Smoothly rotates the door over time
