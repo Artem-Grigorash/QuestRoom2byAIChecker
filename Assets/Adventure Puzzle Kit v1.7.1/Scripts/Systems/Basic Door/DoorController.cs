@@ -28,6 +28,9 @@ namespace AdventurePuzzleKit
         [Header("Door State")]
         [SerializeField] private bool isLocked = false; // Is the door initially locked?
 
+        [Header("Events")]
+        [SerializeField] private UnityEngine.Events.UnityEvent interactionEvent = null; // Event to trigger when interacted with
+
         [Header("Code-Driven Rotation")]
         [SerializeField] private Vector3 rotationAxis = Vector3.up; // Axis to rotate around (usually Y)
         [SerializeField] private float rotationAngle = -90f; // Amount to rotate
@@ -73,6 +76,10 @@ namespace AdventurePuzzleKit
                     AKAudioManager.instance.Play(lockedSoundClip);
                 }
                 return;
+            }
+            if (interactionEvent != null)
+            {
+                interactionEvent.Invoke();
             }
             OpenDoor(); 
         } // Called when player presses the interact key
