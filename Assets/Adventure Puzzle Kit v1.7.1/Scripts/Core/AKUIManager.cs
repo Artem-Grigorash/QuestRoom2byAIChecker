@@ -42,6 +42,7 @@ namespace AdventurePuzzleKit
         [SerializeField] private GameObject triggerInteractPrompt = null;
 
         [SerializeField] private Image crosshair = null;
+        private TextMeshProUGUI _persistentControlsUI = null;
         #endregion
 
         #region Highlight, pickup, examine prompts fields
@@ -315,6 +316,7 @@ namespace AdventurePuzzleKit
 
             FieldNullCheck();
             PrewarmPromptPool();
+            CreatePersistentControlsUI();
 
             #region Post Processing Debug
 #if UNITY_EDITOR
@@ -331,6 +333,48 @@ namespace AdventurePuzzleKit
             #region Disable Prompt Container UI 
             ShowPromptContainer(false);
             #endregion
+        }
+
+        private void CreatePersistentControlsUI()
+        {
+            Canvas canvas = GetComponentInParent<Canvas>();
+            if (canvas == null) canvas = GetComponent<Canvas>();
+            if (canvas == null) canvas = FindFirstObjectByType<Canvas>();
+            if (canvas == null) return;
+
+            GameObject guideUI = new GameObject("ControlsGuide");
+            guideUI.transform.SetParent(canvas.transform, false);
+
+            _persistentControlsUI = guideUI.AddComponent<TextMeshProUGUI>();
+            _persistentControlsUI.text = "AWSD - moving\n" +
+                        "E - all interactions\n" +
+                        "Press \"Tab\" - Inventory\n" +
+                        "--flashlight--\n" +
+                        "Press \"V\" - Reload Battery\n" +
+                        "Press \"F\" - Turn on Flashlight\n" +
+                        "--gas mask--\n" +
+                        "Hold \"G\" - Equip / Unequip Gas Mask\n" +
+                        "Hold \"T\" - Replace Filter (If collected)\n" +
+                        "Note: Filter changed automatically at 20% (Default)";
+
+            _persistentControlsUI.fontSize = 12;
+            _persistentControlsUI.alignment = TextAlignmentOptions.TopRight;
+            _persistentControlsUI.raycastTarget = false;
+
+            if (highlightItemNameUI != null)
+            {
+                _persistentControlsUI.font = highlightItemNameUI.font;
+            }
+
+            RectTransform rect = _persistentControlsUI.rectTransform;
+            rect.anchorMin = new Vector2(1, 1);
+            rect.anchorMax = new Vector2(1, 1);
+            rect.pivot = new Vector2(1, 1);
+            rect.anchoredPosition = new Vector2(-15, -15);
+            rect.sizeDelta = new Vector2(300, 300);
+
+            _persistentControlsUI.outlineWidth = 0.15f;
+            _persistentControlsUI.outlineColor = Color.black;
         }
 
         #region Update Method for Enabling / Disabling Inventory + Input Checks
