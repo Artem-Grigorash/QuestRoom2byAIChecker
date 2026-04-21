@@ -845,9 +845,10 @@ namespace AdventurePuzzleKit
             _vignette.active = on;
         }
 
-        public void EnableDOF(bool on)
+        public void EnableDOF(bool on, float focusDistance = 0.3f)
         {
             _dof.active = on;
+            _dof.focusDistance.value = focusDistance;
         }
 
         public void UpdateFilterUI(FilterState _filterState, string filterAmount, float filterFillAmount)

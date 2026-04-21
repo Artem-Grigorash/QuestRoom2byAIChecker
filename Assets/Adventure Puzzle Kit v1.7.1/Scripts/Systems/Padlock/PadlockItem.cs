@@ -6,18 +6,18 @@ namespace AdventurePuzzleKit.PadlockSystem
     {
         [SerializeField] private PadlockController _padlockController = null;
 
-        public void StartLooking() { } //Started looking at the Padlock object
+        public void StartLooking() { }
 
-        public void StopInteraction() { } //Stopped interacting with the Padlock object
+        public void StopInteraction() { }
 
-        public void HandleInputClick() //Started interaction with the Padlock object
+        public void HandleInputClick()
         {
             _padlockController.ShowPadlock();
         }
 
-        public void HandleInputHold() { } //Holding interaction with the Padlock object
+        public void HandleInputHold() { }
 
-        public void HandleInputStop() { } //Stopped interaction with the Padlock object
+        public void HandleInputStop() { }
 
         public void ObjectInteract()
         {
