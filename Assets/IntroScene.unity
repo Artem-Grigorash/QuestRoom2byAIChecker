@@ -248,7 +248,7 @@ MonoBehaviour:
   onCutsceneFinished:
     m_PersistentCalls:
       m_Calls: []
-  nextSceneName: Show
+  nextSceneName: Demo
 --- !u!328 &1467457745
 VideoPlayer:
   m_ObjectHideFlags: 0

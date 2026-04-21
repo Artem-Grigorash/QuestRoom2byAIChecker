@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FinalScene.unity
     guid: f10f5a7741cdb4f3184a0b079f9c38c7
+  - enabled: 1
+    path: Assets/Abandoned_Asylum/Demo.unity
+    guid: 189b89296a3834519971483d6f3f06ca
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
