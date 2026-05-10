@@ -9,6 +9,7 @@ MemoryCaptures/
 Recordings/
 build/
 build_windows/
+build.app/
 
 # Rider/VS/OS
 .vscode/
