@@ -47,6 +47,8 @@ namespace AdventurePuzzleKit.NoteSystem
 
         public void DisplayNotes()
         {
+            bool noteWasOpened = false;
+
             switch (_NoteType)
             {
                 case UIType.Basic:
@@ -54,29 +56,46 @@ namespace AdventurePuzzleKit.NoteSystem
                     {
                         basicNoteController.enabled = true;
                         basicNoteController.ShowNote();
+                        noteWasOpened = true;
                     }
                     break;
+
                 case UIType.BasicReverse:
                     if (basicReverseNoteController.isReadable)
                     {
                         basicReverseNoteController.enabled = true;
                         basicReverseNoteController.ShowNote();
+                        noteWasOpened = true;
                     }
                     break;
+
                 case UIType.NormalCustom:
                     if (normalCustomNoteController.isReadable)
                     {
                         normalCustomNoteController.enabled = true;
                         normalCustomNoteController.ShowNote();
+                        noteWasOpened = true;
                     }
                     break;
+
                 case UIType.ReverseCustom:
                     if (reverseCustomController.isReadable)
                     {
                         reverseCustomController.enabled = true;
                         reverseCustomController.ShowNote();
+                        noteWasOpened = true;
                     }
                     break;
+            }
+
+            if (noteWasOpened)
+            {
+                NoteCollectable collectable = GetComponent<NoteCollectable>();
+
+                if (collectable != null)
+                {
+                    collectable.CollectIfNeeded();
+                }
             }
         }
     }
