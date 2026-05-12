@@ -10,6 +10,8 @@ Recordings/
 build/
 build_windows/
 build.app/
+web_build
+web_build_dev
 
 # Rider/VS/OS
 .vscode/
