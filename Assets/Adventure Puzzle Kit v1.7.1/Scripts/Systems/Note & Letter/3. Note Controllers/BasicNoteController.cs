@@ -28,6 +28,10 @@ namespace AdventurePuzzleKit.NoteSystem
         [SerializeField] private Sound noteReadAudio = null; // Audio clip for note reading
         [SerializeField] private Sound noteFlipAudio = null; // Audio clip for page flipping
 
+		[SerializeField] private bool playAudioAfterClose = false; // If true, plays audio after the note is closed
+		[SerializeField] private Sound afterCloseAudio = null; // Audio clip played after closing the note
+		[SerializeField] private bool playAfterCloseOnlyOnce = true; // If true, after-close audio plays only once
+		private bool hasPlayedAfterCloseAudio = false; // Tracks whether after-close audio has already played
         [SerializeField] private GameObject triggerObject = null; // Object that triggers note interaction
         [SerializeField] private bool _isNoteTrigger = false; // Indicates if the note is activated by a trigger
 
@@ -45,6 +49,58 @@ namespace AdventurePuzzleKit.NoteSystem
             get { return _isReadable; }
             set { _isReadable = value; }
         }
+
+private void PlayAfterCloseAudio()
+{
+    Debug.Log("PlayAfterCloseAudio called on: " + gameObject.name);
+
+    if (!playAudioAfterClose)
+    {
+        Debug.Log("After close audio is disabled on: " + gameObject.name);
+        return;
+    }
+
+    if (afterCloseAudio == null)
+    {
+        Debug.LogWarning("After close audio Sound is NULL on: " + gameObject.name);
+        return;
+    }
+
+    if (afterCloseAudio.clip == null)
+    {
+        Debug.LogWarning("After close audio clip is NULL inside Sound asset: " + afterCloseAudio.name);
+        return;
+    }
+
+    if (playAfterCloseOnlyOnce && hasPlayedAfterCloseAudio)
+    {
+        Debug.Log("After close audio already played once on: " + gameObject.name);
+        return;
+    }
+
+    Debug.Log("Trying to play after close audio: " + afterCloseAudio.name + " / clip: " + afterCloseAudio.clip.name);
+
+    AKAudioManager.instance.Play(afterCloseAudio);
+
+    hasPlayedAfterCloseAudio = true;
+}
+		//private void PlayAfterCloseAudio()
+		//{
+    	//	if (!playAudioAfterClose)
+    	//	{
+        //		return;
+    	//	}
+    	//	if (afterCloseAudio == null)
+    	//	{
+        //		return; 
+		//	}
+		  //  if (playAfterCloseOnlyOnce && hasPlayedAfterCloseAudio)
+    		//{
+        	//	return;
+    		//}
+    	//	AKAudioManager.instance.Play(afterCloseAudio);
+    	//	hasPlayedAfterCloseAudio = true;
+		//}
 
         // Public property for audio playback permission
         public bool allowAudioPlayback
@@ -123,6 +179,7 @@ namespace AdventurePuzzleKit.NoteSystem
 
         public void CloseNote()
         {
+    Debug.Log("CloseNote called on: " + gameObject.name);
             noteUIController.DisableNoteDisplay(false); // Hide note UI
             AKDisableManager.instance.DisablePlayerDefault(false, false, false); // Re-enable player movement and interaction
             notesRaycastScript.enabled = true; // Re-enable raycast interaction
@@ -151,6 +208,7 @@ namespace AdventurePuzzleKit.NoteSystem
             }
 
             AKPromptManager.Instance.ClearPrompts(); // Clear active prompts
+			PlayAfterCloseAudio();
         }
 
         // Navigates to the next page of the note

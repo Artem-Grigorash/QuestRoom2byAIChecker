@@ -14,6 +14,9 @@ namespace AdventurePuzzleKit.NoteSystem
         SerializedProperty playOnOpen;
         SerializedProperty noteReadAudio;
         SerializedProperty noteFlipAudio;
+        SerializedProperty playAudioAfterClose;
+        SerializedProperty playAfterCloseOnlyOnce;
+        SerializedProperty afterCloseAudio;
         SerializedProperty _isNoteTrigger;
         SerializedProperty triggerObject;
 
@@ -32,6 +35,10 @@ namespace AdventurePuzzleKit.NoteSystem
 
             noteReadAudio = serializedObject.FindProperty(nameof(noteReadAudio));
             noteFlipAudio = serializedObject.FindProperty(nameof(noteFlipAudio));
+            
+            playAudioAfterClose = serializedObject.FindProperty(nameof(playAudioAfterClose));
+            afterCloseAudio = serializedObject.FindProperty(nameof(afterCloseAudio));
+            playAfterCloseOnlyOnce = serializedObject.FindProperty(nameof(playAfterCloseOnlyOnce));
 
             _isNoteTrigger = serializedObject.FindProperty(nameof(_isNoteTrigger));
             triggerObject = serializedObject.FindProperty(nameof(triggerObject));
@@ -81,6 +88,18 @@ namespace AdventurePuzzleKit.NoteSystem
 
             EditorGUILayout.Space(2);
             EditorGUILayout.PropertyField(noteFlipAudio);
+
+            EditorGUILayout.Space(5);
+            EditorGUILayout.LabelField("After Close Audio", EditorStyles.toolbarTextField);
+
+            EditorGUILayout.Space(2);
+            EditorGUILayout.PropertyField(playAudioAfterClose);
+
+            if (playAudioAfterClose.boolValue)
+            {
+                EditorGUILayout.PropertyField(afterCloseAudio);
+                EditorGUILayout.PropertyField(playAfterCloseOnlyOnce);
+            }
             #endregion
 
             #region Trigger Settings
