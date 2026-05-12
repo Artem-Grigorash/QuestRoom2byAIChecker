@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 1467457746}
   - component: {fileID: 1467457745}
   - component: {fileID: 1467457744}
+  - component: {fileID: 1467457747}
   m_Layer: 0
   m_Name: CutsceneManager
   m_TagString: Untagged
@@ -267,7 +268,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 1
   m_AspectRatio: 3
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -275,11 +276,11 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url: file:///Users/nikita.magomedeminov/UnityProjects/QuestRoom2byAIChecker/Assets/StreamingAssets/Game_Cutscene_Environment_In_a_gothic_horror_style_a_distressed_man_in_a_RcnE_heG.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
   m_WaitForFirstFrame: 1
@@ -300,6 +301,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1467457747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467457743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2860fe4eb74a44776bafe9fa72732d3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VideoSetup
+  videoPlayer: {fileID: 1467457745}
+  videoFileName: Game_Cutscene_Environment_In_a_gothic_horror_style_a_distressed_man_in_a_RcnE_heG.mp4
 --- !u!1 &2030966864
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ namespace AdventurePuzzleKit.FlashlightSystem
         [SerializeField] private bool showFlashlightInventory = false; // Show flashlight in inventory?
 
         [Header("Infinite Flashlight")]
-        [SerializeField] private bool infiniteFlashlight = false; // If true, battery is ignored
+        [SerializeField] private bool infiniteFlashlight = true; // If true, battery is ignored
 
         [Header("Battery Parameters")]
         [SerializeField] private float batteryDrainAmount = 0.01f; // Rate of battery drain

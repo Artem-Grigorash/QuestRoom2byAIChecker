@@ -30,7 +30,7 @@ namespace AdventurePuzzleKit.GasMaskSystem
         [SerializeField] private float walkGas = 1; // Speed while choking (reduced)
 
         [Header("Filter Options")]
-        [Range(0, 20)][SerializeField] private float filterFallRate = 2f; // Rate at which the filter depletes
+        [Range(0, 20)][SerializeField] private float filterFallRate = 0; // Rate at which the filter depletes
         [Range(0, 100)][SerializeField] private int warningPercentage = 20; // When to warn the player about low filter
 
         [Range(0, 100)][SerializeField] private float _filterTimer = 100f; // Current remaining filter value
